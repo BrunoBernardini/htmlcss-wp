@@ -44,6 +44,15 @@ p{
   overflow: hidden;
 }
 
+h3{
+  font-weight: lighter;
+}
+
+.heart::before{
+  content: '\2764';
+  color: red;
+}
+
 /* HEADER */
 
 body > header{
@@ -160,7 +169,6 @@ nav ul li a{
 }
 
 .container h3{
-  font-weight: lighter;
   margin-bottom: 15px;
 }
 
@@ -168,5 +176,9 @@ nav ul li a{
 
 footer{
   height: 80px;
-  background-color: #8900ff;
+  padding-top: 54px;
+}
+
+footer h3{
+  text-align: center;
 }
