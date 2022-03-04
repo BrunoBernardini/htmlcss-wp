@@ -98,12 +98,13 @@ nav ul li a{
   margin-bottom: 10px;
 }
 
-.container > header, .container > aside, .container > section{
+.container > aside, .container > section{
   background-color: #abcfe7;
 }
 
 .container > header{
   height: 110px;
+  padding-top: 15px;
 }
 
 .container > header h1{
