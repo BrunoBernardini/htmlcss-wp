@@ -60,12 +60,14 @@ nav ul li a{
   text-transform: uppercase;
 }
 
-/* MAIN */
+/* JUMBOTRON */
 
 .jumbotron{
   height: 610px;
   background-color: #e1d67a;
 }
+
+/* MAIN */
 
 .container{
   background-color: #0485fb;
