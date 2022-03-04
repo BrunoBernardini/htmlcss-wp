@@ -64,7 +64,12 @@ nav ul li a{
 
 .jumbotron{
   height: 610px;
-  background-color: #e1d67a;
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  color: white;
 }
 
 /* MAIN */
