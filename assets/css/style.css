@@ -39,6 +39,11 @@ p{
   font-size: 21px;
 }
 
+.jumbotron, .card{
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 /* HEADER */
 
 body > header{
@@ -76,8 +81,6 @@ nav ul li a{
   background-image: url('../img/banner.jpg');
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
-  overflow: hidden;
   color: white;
 }
 
@@ -116,17 +119,19 @@ nav ul li a{
   color: gray;
 }
 
+/* ASIDE, SECTION E IMG */
+
 .container aside, .container section{
   height: 655px;
 }
 
 .container > aside{
-  width: 29%;
+  width: 19%;
 }
 
 .container > section{
   float: left;
-  width: 39%;
+  width: 59%;
 }
 
 .left{
@@ -136,6 +141,25 @@ nav ul li a{
 
 .right{
   float: right;
+}
+
+/* IMMAGINI COLONNE */
+.card{
+  height: 289.25px;
+  background-size: cover;
+  background-position: center;
+}
+
+#wallpaper1{
+  background-image: url('../img/img-1.jpg');
+}
+
+#wallpaper2{
+  background-image: url('../img/banner-2.jpg');
+}
+
+#wallpaper3{
+  background-image: url('../img/img-3.jpg');
 }
 
 /* FOOTER */
