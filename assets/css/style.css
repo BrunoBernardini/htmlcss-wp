@@ -1,0 +1,111 @@
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body{
+  margin: 30px 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header, .jumbotron, .container, footer{
+  width: 100%;
+}
+
+header, .jumbotron{
+  margin-bottom: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* HEADER */
+
+body > header{
+  height: 175px;
+}
+
+/* LOGO */
+
+body > header > img{
+  width: 12.5%;
+  border-right: 1px solid lightgray;
+  padding-right: 20px;
+  margin-bottom: 4.5%;
+}
+
+/* NAVBAR */
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a{
+  text-transform: uppercase;
+}
+
+/* MAIN */
+
+.jumbotron{
+  height: 610px;
+  background-color: #e1d67a;
+}
+
+.container{
+  background-color: #0485fb;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.container > header, .container > aside, .container > section{
+  background-color: #abcfe7;
+}
+
+.container > header{
+  height: 110px;
+}
+
+.container aside, .container section{
+  height: 655px;
+}
+
+.container > aside{
+  width: 29%;
+}
+
+.container > section{
+  float: left;
+  width: 39%;
+}
+
+.left{
+  float: left;
+  margin-right: 1.5%;
+}
+
+.right{
+  float: right;
+}
+
+/* FOOTER */
+
+footer{
+  height: 80px;
+  background-color: #8900ff;
+}
