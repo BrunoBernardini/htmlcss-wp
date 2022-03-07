@@ -130,10 +130,6 @@ nav ul li a:hover{
 
 /* ASIDE, SECTION E IMG */
 
-.container aside, .container section{
-  height: 690px;
-}
-
 .container > aside{
   width: 19%;
 }
